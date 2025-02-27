@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - شركة جزيرة بوبيان</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo1.png" alt=" "> <!-- إضافة الشعار -->
+                شركة جزيرة بوبيان
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="products.html">منتجاتنا</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </header>
+    
+
+    <section class="contact-us">
+        <div class="container">
+            <h1>اتصل بنا</h1>
+            <p class="contact-description">نحن هنا لمساعدتك. لا تتردد في التواصل معنا لأي استفسارات أو اقتراحات.</p>
+
+            <div class="contact-info">
+                <div class="contact-box">
+                    <h2>📍 العنوان</h2>
+                    <p>الكرادة العرصات</p>
+                </div>
+                <div class="contact-box">
+                    <h2>📞 الهاتف</h2>
+                    <p>07700716498  </p>
+                </div>
+                <div class="contact-box">
+                    <h2>⏰ أوقات العمل</h2>
+                    <p>الأحد - الخميس: 9:00 صباحًا - 6:00 مساءً</p>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            let navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>

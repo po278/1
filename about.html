@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من نحن - شركة جزيرة بوبيان</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo1.png" alt=" "> <!-- إضافة الشعار -->
+                شركة جزيرة بوبيان
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="products.html">منتجاتنا</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </header>
+    
+
+    <section class="about-us">
+        <div class="container">
+            <h1>من نحن</h1>
+            <p class="about-description">
+                نحن شركة جزيرة بوبيان، نقدم أحدث الأجهزة المنزلية بتكنولوجيا متقدمة وأسعار تنافسية. نحرص على الجودة العالية 
+                وخدمة العملاء لضمان رضاكم.
+            </p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>رؤيتنا</h2>
+                    <p>نهدف إلى أن نكون الرواد في توفير الأجهزة المنزلية الذكية من خلال الابتكار المستمر.</p>
+                    <h2>مهمتنا</h2>
+                    <p>تقديم منتجات موثوقة بخدمة استثنائية، مع التركيز على رضا العملاء وتحقيق الاستدامة.</p>
+                </div>
+                <div class="about-images">
+                    <img src="images/our_team.jpg" alt="فريق العمل">
+                    <img src="images/our_products.jpg" alt="منتجاتنا">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            let navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
