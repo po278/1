@@ -425,13 +425,13 @@ html {
 }
 
 footer {
-    background: linear-gradient(to right, #222, #444);
+    background: linear-gradient(to right, #466ca5, #52ac75);
     text-align: center;
     padding: 15px;
     font-size: 14px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .products-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
