@@ -1918,3 +1918,411 @@ header {
     color: #f39c12; /* اللون المميز */
     font-weight: bold;
 }
+
+
+
+
+
+
+/* تصميم قسم الاتصال */
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.contact-logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* تصميم أيقونات مواقع التواصل */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* ألوان مخصصة لكل منصة */
+.facebook { background: #1877F2; }
+.instagram { background: #E4405F; }
+.twitter { background: #1DA1F2; }
+.whatsapp { background: #25D366; }
+.linkedin { background: #0077B5; }
+
+.social-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* جعل التصميم متجاوب */
+@media (max-width: 768px) {
+    .contact-info h2 {
+        font-size: 24px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+
+/* تصميم قسم الخريطة */
+.map-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.map-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* تحسينات للهواتف */
+@media (max-width: 768px) {
+    .map-section h2 {
+        font-size: 24px;
+    }
+
+    .map-container {
+        height: 300px;
+    }
+}
+
+
+/* تصميم قسم "من نحن" */
+.about-section {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    text-align: right;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تصميم قسم القيم الأساسية */
+.values-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.values-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.value {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.value i {
+    font-size: 30px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.value h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.value p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* تحسين التصميم على الهواتف */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 28px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .values {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* تنسيق قسم "من نحن" */
+.about-section {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    text-align: right;
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق قسم القيم الأساسية */
+.values-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.values-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.value {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.value i {
+    font-size: 30px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.value h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.value p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* تحسينات للهواتف */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 28px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .values {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* تصميم قسم "من نحن" */
+.about-section {
+    padding: 80px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.about-image {
+    margin-top: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تحسين التصميم على الهواتف */
+@media (max-width: 768px) {
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+}
