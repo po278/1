@@ -1867,9 +1867,9 @@ header {
 }
 
 .logo img {
-    width: 70px; /* ضبط حجم الشعار */
+    width: 80px; /* ضبط حجم الشعار */
     height: auto;
-    margin-right: 10px;
+    margin-right: 3px;
 }
 
 .nav-links {
