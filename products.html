@@ -28,64 +28,49 @@
     </header>
     
 
-    <section class="products-container">
-        <!-- منتج 1 -->
-        <div class="product-card">
-            <img src="images/product1.jpg" alt="غسالة ذكية">
-            <div class="product-info">
-                <h3>غسالة LG الذكية</h3>
-                <p>غسالة بتقنيات متطورة لتوفير الطاقة والمياه.</p>
-                <span class="price">500$</span>
-             
+    <section class="products">
+        <h2>منتجاتنا</h2>
+        <div class="product-grid">
+            
+            <!-- المنتج الأول -->
+            <div class="product">
+                <img src="images/product1.jpg" alt="منتج 1" class="product-img">
+                <h3>اسم المنتج 1</h3>
+                <p>وصف مختصر عن المنتج</p>
+                <button class="view-more-btn" onclick="toggleGallery(1)">عرض المزيد من الصور</button>
+                <div class="extra-images" id="gallery-1">
+                    <img src="images/11.jpg" alt="صورة إضافية 1">
+                    <img src="images/22.jpg" alt="صورة إضافية 2">
+                </div>
             </div>
-        </div>
-
-        <!-- منتج 2 -->
-        <div class="product-card">
-            <img src="images/product2.jpg" alt="ثلاجة ذكية">
-            <div class="product-info">
-                <h3>ثلاجة ذكية</h3>
-                <p>ثلاجة موفرة للطاقة مع تقنية التبريد السريع.</p>
-                <span class="price">1200$</span>
-             
+    
+            <!-- المنتج الثاني -->
+            <div class="product">
+                <img src="images/product1.jpg" alt="منتج 2" class="product-img">
+                <h3>اسم المنتج 2</h3>
+                <p>وصف مختصر عن المنتج</p>
+                <button class="view-more-btn" onclick="toggleGallery(2)">عرض المزيد من الصور</button>
+                <div class="extra-images" id="gallery-2">
+                    <img src="images/product2-2.jpg" alt="صورة إضافية 1">
+                    <img src="images/product2-3.jpg" alt="صورة إضافية 2">
+                </div>
             </div>
-        </div>
-
-        <!-- منتج 3 -->
-        <div class="product-card">
-            <img src="images/product3.jpg" alt="ميكروويف متطور">
-            <div class="product-info">
-                <h3>ميكروويف متطور</h3>
-                <p>ميكروويف سريع مع برامج طهي ذكية.</p>
-                <span class="price">300$</span>
-               
+    
+            <!-- المنتج الثالث -->
+            <div class="product">
+                <img src="images/product1.jpg" alt="منتج 3" class="product-img">
+                <h3>اسم المنتج 3</h3>
+                <p>وصف مختصر عن المنتج</p>
+                <button class="view-more-btn" onclick="toggleGallery(3)">عرض المزيد من الصور</button>
+                <div class="extra-images" id="gallery-3">
+                    <img src="images/product3-2.jpg" alt="صورة إضافية 1">
+                    <img src="images/product3-3.jpg" alt="صورة إضافية 2">
+                </div>
             </div>
+    
         </div>
-
-        <!-- منتج 3 -->
-        <div class="product-card">
-            <img src="images/product3.jpg" alt="ميكروويف متطور">
-            <div class="product-info">
-                <h3>ميكروويف متطور</h3>
-                <p>ميكروويف سريع مع برامج طهي ذكية.</p>
-                <span class="price">300$</span>
-               
-            </div>
-        </div>
-
-        <!-- منتج 3 -->
-        <div class="product-card">
-            <img src="images/product3.jpg" alt="ميكروويف متطور">
-            <div class="product-info">
-                <h3>ميكروويف متطور</h3>
-                <p>ميكروويف سريع مع برامج طهي ذكية.</p>
-                <span class="price">300$</span>
-               
-            </div>
-        </div>
-
-        
-
+    </section>
+    
         <!-- إضافة المزيد من المنتجات بنفس التنسيق -->
     </section>
   <script>
