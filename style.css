@@ -1844,7 +1844,7 @@ header .logo {
 }
 /* الهيدر */
 header {
-    background-color: #2c3e50;
+    background-color: #61788f;
     padding: 10px 15px;
     position: fixed;
     width: 100%;
@@ -1864,12 +1864,14 @@ header {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    
 }
 
 .logo img {
     width: 80px; /* ضبط حجم الشعار */
     height: auto;
-    margin-right: 3px;
+    margin-right: -30px;
+   
 }
 
 .nav-links {
@@ -2326,3 +2328,7 @@ header {
         font-size: 16px;
     }
 }
+
+
+
+
