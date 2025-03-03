@@ -4712,15 +4712,66 @@ header {
 }
 
 /* إخفاء الصور الإضافية افتراضيًا */
+/* إخفاء الصور الإضافية افتراضيًا */
 .extra-images {
     display: none;
+    justify-content: center; /* تنسيق الصور وسط العنصر */
+    gap: 10px; /* تباعد بين الصور */
     margin-top: 10px;
+    flex-wrap: wrap; /* إذا زادت الصور ستنتقل لسطر جديد */
 }
 
 .extra-images img {
     width: 100px;
     height: auto;
-    margin: 5px;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
+
+.extra-images img:hover {
+    transform: scale(1.1); /* تكبير الصورة عند المرور عليها */
+}
+
+
+
+
+
+
+
+
+.extra-images {
+    display: none;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.extra-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.extra-images img:hover {
+    transform: scale(1.1);
+}
+
+.view-more-btn {
+    background-color: #13832b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.view-more-btn:hover {
+    background-color: #5c0596;
+}
+
