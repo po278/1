@@ -74,8 +74,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+    function toggleMenu() {
+        let navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+    }
 
 
+    function toggleMenu() {
+        let navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+    }
+
+    function toggleGallery(productId) {
+        let gallery = document.getElementById("gallery-" + productId);
+        if (gallery.style.display === "flex") {
+            gallery.style.display = "none"; // إخفاء الصور
+        } else {
+            gallery.style.display = "flex"; // إظهار الصور
+        }
+    }
 
 
 
@@ -86,4 +103,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+    function toggleGallery(productId) {
+        let gallery = document.getElementById("gallery-" + productId);
+        let button = document.querySelector(`button[onclick="toggleGallery(${productId})"]`);
+
+        if (gallery.classList.contains("hidden")) {
+            gallery.classList.remove("hidden"); 
+            button.textContent = "إخفاء الصور"; // تغيير نص الزر
+        } else {
+            gallery.classList.add("hidden");
+            button.textContent = "عرض المزيد من الصور"; // إعادة النص إلى الأصلي
+        }
+    }
+
+
+
+
+
+    
     
